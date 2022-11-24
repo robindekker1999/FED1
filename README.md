@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Robin Dekker
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Rode piste
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Responsive en daarna ook surface plane
  
 </details>
 
@@ -36,11 +36,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://mario.nintendo.com/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
@@ -119,10 +119,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1: Robin      | student 2: Marc          | student 3: Mats    | student 4: Aya        |
   | ---            | ---                | ---          | ---              |
-  | flexbox, grid & position door elkaar gebruiken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | flexbox, grid & position door elkaar gebruiken  | HTML en CSS kort laten zien voor feedback| een plan opstellen ivm huiswerk |  hoe zijn hier de h'tjes verdeeld (h1, h2, etc.)?    |
+  | klopt mijn HTML |  geen directe vragen| - | - |
+  | H1 onzichtbaar maken            | ...                | ...          | ...              |
 
+  Algemeen: Hamburger menu, Github (vullen we het goed in, zoals website link)
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
