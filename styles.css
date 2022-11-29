@@ -1,0 +1,329 @@
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	--text-color:#FFFFFF;
+    --text-font:font-family: 'Catamaran', sans-serif;
+    --text-color-dark: #070707;
+
+    --background-color-white: #FFFFFF;
+    
+    --background-color: #FE0016;
+    --background-color-gray: rgba(65, 65, 65, 0.5);
+    --background-color-striped: repeating-linear-gradient(
+        -45deg,
+        #2b2b2b,
+        #2b2b2b 10px,
+        #2f2f2f 10px,
+        #2f2f2f 20px
+        );    
+
+    --color-blue: linear-gradient(
+        180deg,rgba(0,145,223,.8) 
+        2%,rgba(0,88,188,.8) 99%)
+}
+
+*{
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    color: var(--text-color);
+    background-color: #adadad;
+    font-family: 'Catamaran', sans-serif;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+/*********************/
+/* HEADER */
+/*********************/
+h1{
+    display: none;
+}
+
+header nav ul:first-of-type{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0;
+
+    justify-content: space-around;
+
+    list-style: none;
+    background-color: var(--background-color);
+    
+}
+
+header nav ul:first-of-type li{
+    padding: 0.5em;
+    min-width: max-content;
+    justify-content: center;
+    text-align: center;
+
+}
+
+header nav ul:first-of-type li a{
+    display:block;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header nav ul:first-of-type li:nth-of-type(3){
+    flex-grow: 1;
+    background: var(--background-color-striped);
+    
+}
+
+header nav ul:first-of-type li:last-of-type{
+    position: absolute;
+    right: 0;
+    top: 3.5em;
+    padding: 0;
+}
+
+nav ul li img:first-of-type{
+    width: 3em;
+}
+
+nav ul li a img:first-child{
+    width: 7em;
+}
+
+/*********************/
+/* NAV */
+/*********************/
+header{
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
+header nav ul:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+
+    background: var(--background-color-striped);
+    list-style: none;
+    padding: 2em 0;
+    gap: 0.5em;
+
+    position: relative;
+    transform: translateX(-100%);
+    
+}
+
+.navAnders{
+   transform: translateX(0);
+}
+
+header nav ul:nth-of-type(2) li{
+    padding: 1em 1.5em;
+    font-weight: 800;
+    
+}
+
+header nav ul:nth-of-type(2) li:active{
+    border: solid 2px var(--text-color);
+    border-radius: 0.5em;
+}
+
+header nav button{
+    background: var(--background-color-striped);
+    color: var(--text-color);
+    padding: 1em 1.5em;
+    font-weight: 800;
+    width: max-content;
+
+    margin: 1em 0 0 1em;
+
+    border: solid 2px var(--text-color);
+    border-radius: 0.5em;
+
+    position: absolute;
+    z-index: 100;
+}
+
+/*********************/
+/* MAIN games */
+/*********************/
+
+main section:first-of-type{
+    display: flex;
+    position: relative;
+}
+
+main section:first-of-type h2{
+    display: none;
+}
+
+main section ul{
+    display: flex;
+    overflow-x: scroll;
+}
+
+main section:first-of-type ul li img{
+    width: 10em;
+}
+
+main button{
+    width: 2em;
+    height: 4em;
+    background-color: var(--background-color-gray);
+    border: none;
+    border-radius: 0.5em;
+}
+
+main button img{
+    width: 1em;
+}
+
+main button:nth-of-type(2) img{
+    transform: rotate(180deg);
+}
+
+main section:first-of-type > a{
+    position: absolute;
+
+}
+
+
+
+/*********************/
+/* Mario in the news */
+/*********************/
+
+h2{
+    font-size: 2.5em;
+    font-weight: 900;
+    text-align: center;
+    flex-grow: 1;
+    line-height: 1em;
+    margin-bottom: 1em;
+}
+
+section:nth-of-type(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+section:nth-of-type(2) ul{
+    padding: 0 0.5em;
+    gap: 0.5em;
+}
+
+section:nth-of-type(2) ul li{
+    background: var(--background-color-striped);
+    padding: 1em;
+    border-radius: 0.5em;
+
+    font-weight: 800;
+}
+
+section:nth-of-type(2) img{
+    width: 12em;
+    border-radius: 0.3em;
+}
+
+section:nth-of-type(2)>a, section:nth-of-type(3)>a{
+    background-color: var(--background-color-white);
+    color: var(--text-color-dark);
+    font-weight: 800;
+
+    padding: 0.8em 1.5em;
+    border-radius: 5em;
+    flex-grow: 1;
+    max-width: max-content;
+    margin-top: 2em;
+}
+
+
+
+
+/*********************/
+/* VIDEO */
+/*********************/
+article:first-of-type{
+    text-align: center;
+    margin-top: 4em;
+    position: relative;
+}
+
+article:first-of-type img{
+    border-radius: 0.8em;
+    border: solid var(--text-color);
+    width: 90%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+article:first-of-type h3{
+    font-size: 0.9em;
+    font-weight: 800;
+    padding: 0.5em 0;
+}
+
+article:first-of-type p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+article:first-of-type a{
+    background-color: var(--background-color-gray);
+    border-radius: 5em;
+    width: max-content;
+    padding: 0.4em 1.5em;
+    margin: 2em auto 6em auto;
+    display: block;
+
+    font-size: 0.8em;
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 20%)
+}
+
+/* Play button: https://css-tricks.com/making-pure-css-playpause-button/ */
+article:first-of-type button{
+    border-style: solid;
+    border-radius: 0;
+    
+    box-sizing: border-box;
+    width: 2.5em;
+    height: 2.5em;
+
+    border-width: 1.25em 0 1.25em 2.5em;
+    border-color: transparent transparent transparent #ffffff;
+    background-color: transparent;
+
+    position: absolute;
+    transform: translate(-25%, 40%);
+}
+
+article:first-of-type div{
+    background-image: var(--color-blue);
+    width: 4em;
+    height: 4em;
+
+    border-radius: 50%;
+    border: solid #FFFFFF 0.3em;
+
+    position: absolute;
+    left:calc(50% - 2.5em);
+    top:calc(50% - 7em);
+}
+
+
+
+
+/*********************/
+/* Featured products */
+/*********************/

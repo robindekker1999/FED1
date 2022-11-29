@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Robin Dekker
+  Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-  Rode piste
+  hier je startniveau (kies uit zwart, rood óf blauw)
 
   #### Je focus:
-  Responsive en daarna ook surface plane
+  hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,11 +36,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://mario.nintendo.com/
+  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="">
+  <img src="readme-images/screenshot1.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
@@ -117,13 +117,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1: Robin      | student 2: Marc          | student 3: Mats    | student 4: Aya        |
+  | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | flexbox, grid & position door elkaar gebruiken  | HTML en CSS kort laten zien voor feedback| een plan opstellen ivm huiswerk |  hoe zijn hier de h'tjes verdeeld (h1, h2, etc.)?    |
-  | klopt mijn HTML |  geen directe vragen| - | - |
-  | H1 onzichtbaar maken            | ...                | ...          | ...              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
-  Algemeen: Hamburger menu, Github (vullen we het goed in, zoals website link)
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
