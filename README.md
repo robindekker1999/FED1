@@ -98,7 +98,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/breakdownschets" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
 </details>
 
@@ -259,10 +259,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je uitkomst - karakteristiek screenshots:
   
-  <img src="readme-images/ss1" width="375px" alt="klein scherm">
-  <img src="readme-images/ss2" width="375px" alt="middel scherm">
-  <img src="readme-images/ss3" width="375px" alt="groot scherm">
-  <img src="readme-images/ss4" width="375px" alt="tweede pagina">
+  <img src="readme-images/ss1.png" width="375px" alt="klein scherm">
+  <img src="readme-images/ss2.png" width="375px" alt="middel scherm">
+  <img src="readme-images/ss3.png" width="375px" alt="groot scherm">
+  <img src="readme-images/ss4.png" width="375px" alt="tweede pagina">
   
 
 
@@ -273,19 +273,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   Daarnaast heb ik ook geleerd om elementen goed te positioneren, door middel van flexbox, grid en position te gebruiken. Ik beschik nu over veel meer vaardigheden om dit goed te doen en ik begrijp het ook. Na het maken van de opdrachten is flexbox en vooral grid veel duidelijker geworden en kan ik het nu meteen toepassen zonder voorbeeld.
   
-  <img src="readme-images/grid" width="375px" alt="menu">
+  <img src="readme-images/grid.png" width="375px" alt="menu">
   
   Ook kan ik nu buttons klikbaar maken met een paar simpele regels css + JS.
   
-  <img src="readme-images/goed1" width="375px" alt="menu">
-  <img src="readme-images/goed2 width="375px" alt="menu">
+  <img src="readme-images/goed1.png" width="375px" alt="menu">
+  <img src="readme-images/goed2.png width="375px" alt="menu">
   
 
 
   ### Dit was lastig/Is niet gelukt:
   De meeste dingen gingen goed, maar er zijn twee dingen niet gelukt. Ten eerste is het de reduced motion button werkend maken. Reduced motion werkt wel wanneer je dit zelf instelt bij de instellingen van je device, maar er gebeurt niks wanneer je op de button klikt. Ik weet ook niet zo goed hoe ik dit wel werkend moet maken. Het leek me erg lastig dus voor nu heb ik het gelaten.
   
-  <img src="readme-images/ng1" width="375px" alt="reduced motion button werken & rode streep bij menu">
+  <img src="readme-images/ng1.png" width="375px" alt="reduced motion button werken & rode streep bij menu">
   
   Op de echte webpagina van Mario veranderen de plaatjes vanzelf na bepaalde tijd. Ik weet wel ongeveer hoe ik dit zou moeten doen met JS, maar dat is veel werk en hoort niet echt bij de opdracht van dit vak. Als ik meer tijd had zou ik dit wel nog verder willen uitwerken. Daar hoort ook bij dat je op de buttons kan klikken om handmatig de plaatjes te veranderen, dat werkt bij mij ook niet.
   <img src="readme-images/ng2" width="375px" alt="veranderende plaatjes">
