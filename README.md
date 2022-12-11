@@ -278,7 +278,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ook kan ik nu buttons klikbaar maken met een paar simpele regels css + JS.
   
   <img src="readme-images/goed1.png" width="375px" alt="menu">
-  <img src="readme-images/goed2.png width="375px" alt="menu">
+  <img src="readme-images/goed2.png" width="375px" alt="menu">
   
 
 
@@ -288,7 +288,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/ng1.png" width="375px" alt="reduced motion button werken & rode streep bij menu">
   
   Op de echte webpagina van Mario veranderen de plaatjes vanzelf na bepaalde tijd. Ik weet wel ongeveer hoe ik dit zou moeten doen met JS, maar dat is veel werk en hoort niet echt bij de opdracht van dit vak. Als ik meer tijd had zou ik dit wel nog verder willen uitwerken. Daar hoort ook bij dat je op de buttons kan klikken om handmatig de plaatjes te veranderen, dat werkt bij mij ook niet.
-  <img src="readme-images/ng2" width="375px" alt="veranderende plaatjes">
+  <img src="readme-images/ng.png2" width="375px" alt="veranderende plaatjes">
 </details>
 
 
