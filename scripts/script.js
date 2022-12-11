@@ -10,31 +10,71 @@ function openMenu() {
     navMenu.classList.toggle("navAnders");
   }
 
+
+
 // Character page 
-var uitklapPijl = document.querySelector(".characters main ul li button");
-var characterInfo = document.querySelector(".characters main ul li div");
+// var uitklapPijl = document.querySelector(".characters main ul li button");
+// var characterInfo = document.querySelector(".characters main ul li div");
 
-uitklapPijl.addEventListener("click", openCharacter);
+// uitklapPijl.addEventListener("click", openCharacter);
 
-function openCharacter(){
-    characterInfo.classList.toggle("charactersUitgeklapt")
+// function openCharacter(){
+//     characterInfo.classList.toggle("charactersUitgeklapt")
+// }
+
+
+
+
+// Character page uitklappen alle buttons
+var buttons = document.querySelectorAll('.characters main ul li button');
+
+console.log(buttons.length);
+
+var i = 0;
+while ( i < buttons.length ) {
+    buttons[i].addEventListener("click",openKlappen);
+    i = i + 1;
+}
+
+function openKlappen() {
+    console.log(this.parentnode);
+    this.nextElementSibling.classList.toggle('charactersUitgeklapt'); // div
+    this.parentElement.classList.toggle('parentAnders'); // parent dus li
+    this.classList.toggle('pijlAnders'); // button zelf
 }
 
 
-var marioImage = document.querySelector(".characters main ul li img:first-of-type");
 
-uitklapPijl.addEventListener("click", andereMario);
+// EXTRA
+var robin = document.querySelector('footer p strong');
+var alles = document.querySelector("body");
 
-/* function andereMario(){
-    marioImage.src = "../mario-images/anderemario.png";
-} */
+robin.addEventListener("click", allesDraait);
 
-// function andereMario(){
-//     if (marioImage.getAttribute('src') == "../mario-images/mariomario.png"){
-//         marioImage.src = "../mario-images/anderemario.png"
-//     }
-//     else{
-//         marioImage.src = "../mario-images/mariomario.png"
-//     }
-// }
+function allesDraait() {
+    alles.classList.toggle("extra");
+  }
+
+
+// SLIDE IN ON SCROLL
+
+// met hulp van deze video: https://www.youtube.com/watch?v=T33NN_pPeNI&ab_channel=BeyondFireship
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+        else {
+            entry.target.classList.remove('show');
+        }
+    });
+});
+
+const hiddenElements = document.querySelectorAll('.hidden');
+const hiddenElementsTwee = document.querySelectorAll('.hiddenTwee')
+
+hiddenElements.forEach((el) => observer.observe(el));
+hiddenElementsTwee.forEach((el) => observer.observe(el));
 
